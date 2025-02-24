@@ -111,7 +111,22 @@ console.log(first)
 // console.log(second)1-variable.js:111 Uncaught ReferenceError: second is not defined
 // at 1-variable.js:111:13
 
+// !Letteki aynı işlemleri const içinde yapalım
 
+const bir = "cemal"
+
+console.log(bir)
+
+{
+    console.log(bir)
+
+    const iki = ("hasan")
+    console.log(iki)
+}
+
+// console.log(iki)
+
+// const ve let için scope içinde olan scope(süslü) içinde kalır
 
 
 
